@@ -1,0 +1,722 @@
+/***********************main*****************************/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightblue;
+    height: 100%;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.left{
+    position: relative;
+    display : block;
+    background-color: rgb(80, 159, 191);
+    font-family: Arial, sans-serif;
+    width: 20%;
+    height: 100vh;
+    margin: auto;
+    float: left;
+}
+
+.left a{
+    text-decoration: none;
+    color: black;
+}
+.left li a {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    transition: 0.2s;
+}
+
+.left li a:hover{
+    background-color: rgba(12,97,93, 0.8);
+    color: white;
+}
+
+.left li a:active{
+    background-color: rgba(12,97,93, 0.8);
+    color: white;
+}
+
+
+.right{
+    position: relative;
+    font-family: Arial Black, sans-serif;
+    margin: auto;
+    width: 80%;
+    height: 25ex;
+    left: 10%;
+    background-image: url("../img/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.right h1{
+    margin: auto;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+/*********************error message*****************/
+small{
+    font-size: 12px;
+    font-family: Arial, san-serif;
+}
+
+/*********************Login Page************************/
+/*Header for login create page*/
+.right-1{
+    position: relative;
+    font-family: Arial Black, sans-serif;
+    padding-left: 15px;
+    background-image:url("../img/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 25ex;
+}
+
+.right-1 h1{
+    margin: auto;
+    padding-top: 35px;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+/*Update and Create*/
+.center-1{
+    position: relative;
+    margin: auto;
+    padding: 3px;
+    top: 10ex;
+    background-color: rgb(98, 181, 215);
+    width: 70%;
+    height: auto;
+    text-align: center;
+}
+
+.center-1 h3{
+    font-size: 28px;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+
+.center-1 .pos-1{
+    position: relative;
+    margin: auto;
+    padding: 5px;
+}
+
+.center-1 .pos-1 h3{
+    font-size: 26px;
+    font-family: Arial, sans-serif;
+}
+
+.center-1 .pos2-1{
+    width: 60%; 
+    margin: auto;
+}
+
+.center-1 .pos2-1 .table-1{
+    width: 100%;
+    text-align: center;
+    border-spacing: 5px;
+}
+
+.center-1 .pos2-1 .table-1 td{
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    width: 20%;
+    height: auto;
+    text-align: center;
+    padding: 5px;
+}
+
+.center-1 .pos2-1 .table-1 td hr{
+    margin: auto;
+    width: auto;
+}
+
+
+.center-1 .pos2-1 .table-1 td input{
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.center-1 .pos2-1 .table-1 td select{
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    width: 103%;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.center-1 .pos2-1 .table-1 td button{
+    font-size: 15px;
+    width: 95px;
+    height: 35px;
+    color: white;
+    margin: auto;
+    padding: 0;
+    border-color: rgba(49, 139, 176, 0.8);
+    border-radius: 5px;
+    background-color: rgba(49, 139, 176, 0.8);
+    text-align: center;
+}
+
+.center-1 .pos2-1 .table-1 td button a{
+    text-decoration: none;
+    color: white;
+}
+
+.center-1 .pos2-1 .table-1 td .createNewUser{
+    font-size: 15px;
+    width: 50%;
+    height: 35px;
+    color: white;
+    margin: 2px;
+    padding: 0;
+    border-color: rgba(49, 139, 176, 0.8);
+    border-radius: 5px;
+    background-color: rgba(49, 139, 176, 0.8);
+    text-align: center;text-decoration: none;
+}
+
+.center-1 .pos2-1 .table-1 td .createNewUser a{
+    text-decoration: none;
+    color: white;
+}
+
+/*********************************Owner part******************************/
+.center1{
+    position: relative;
+    margin: auto;
+    top: 5ex;
+    background-color: rgb(98, 181, 215);
+    width: 70%;
+    max-height: 65ex;
+    text-align: center;
+    overflow: auto;
+}
+
+.center1 h3{
+    font-family: Arial,  sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.center1 .pos1{
+    position: relative;
+    margin: auto;
+    width: 90%;
+    height: 55%;
+    text-align: center;
+}
+
+.center1 .pos1 button{
+    font-size: 15px;
+    width: 95px;
+    height: 35px;
+    color: white;
+    margin: 2px;
+    padding: 0;
+    border-color: rgba(49, 139, 176, 0.8);
+    border-radius: 5px;
+    background-color: rgba(49, 139, 176, 0.8);
+    text-align: center;
+}
+
+.center1 .pos1 button a{
+    text-decoration: none;
+    color: white;
+}
+
+.center1 .pos1 .pos1-1{
+    position: relative;
+    margin: auto;
+    width: 80%;
+}
+
+.center1 .pos1 table1{
+    width: 100%;
+    margin: auto;
+    border-color: grey;
+}
+
+.center1 .pos1 table1 th{
+    background-color: rgb(58, 177, 202);
+    font-size: 26px;
+    font-family: Arial, sans-serif;
+}
+
+.center1 .pos1 .table1 td{
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    width: auto;
+    margin: auto;
+    border: 1px solid;
+}
+.center1 .pos1 .table1 select{
+    width:  100%;
+    height: 5ex;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+}
+.center1 .pos1 .table1 input{
+    width: 100%;
+    height: 5ex;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.center1 .pos1 .table1 button{
+    font-size: 15px;
+    width: 95px;
+    height: 35px;
+    color: white;
+    margin: 2px;
+    padding: 0;
+    border-color: rgba(49, 139, 176, 0.8);
+    border-radius: 5px;
+    background-color: rgba(49, 139, 176, 0.8);
+    text-align: center;
+}
+
+.center1 .pos1 .table1 button a{
+    text-decoration: none;
+    color: white;
+}
+
+/*rental Comformation table*/
+.header{
+    background-color: rgb(57, 140, 174);
+}
+
+.center1 .pos1 .pos1-1 .table1-1{
+    width: 90%;
+    margin: auto;
+    border-color: grey;
+    text-align: center;
+}
+
+.center1 .pos1 .pos1-1 .table1-1 td{
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    width: auto;
+    margin: auto;
+    padding: 2px;
+}
+
+.center1 .pos1 .pos1-1 .table1-1 button{
+    font-size: 15px;
+    width: 95px;
+    height: 35px;
+    color: white;
+    margin: 2px;
+    padding: 0;
+    border-color: rgba(49, 139, 176, 0.8);
+    border-radius: 5px;
+    background-color: rgba(49, 139, 176, 0.8);
+    text-align: center;
+}
+
+.center1 .pos1 .pos1-1 .table1-1 button a{
+    text-decoration: none;
+    color: white;
+}
+
+.center1 .pos1 .pos1-1 .table1-1 input{
+    width: 100%;
+    height: 5ex;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/********update page css*********/
+.center2{
+    position: relative;
+    margin: auto;
+    top: 5ex;
+    background-color: rgb(98, 181, 215);
+    width: 75%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+}
+.center2 .pos3{
+    position: relative;
+    margin: auto;
+    width: 80%;
+    height: 55%;
+}
+
+.center2 h3{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.center2 .pos3 button{
+    font-size: 15px;
+    width: 95px;
+    height: 35px;
+    color: white;
+    margin: 2px;
+    padding: 0;
+    border-color: rgba(49, 139, 176, 0.8);
+    border-radius: 5px;
+    background-color: rgba(49, 139, 176, 0.8);
+    text-align: center;
+}
+
+.center2 .pos3 button a{
+    text-decoration: none;
+    color: white;
+}
+
+.center2 .pos3 .table1 {
+    margin: auto;
+    width: 70%;
+}
+
+.center2 .pos3 .table1 td{
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    width: auto;
+    height: 40px;
+}
+
+.center2 .pos3 .table1 td .small{
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    width: auto;
+    height: 40px;
+}
+
+.center2 .pos3 .table1 input{
+    width: 100%;
+    height: 5ex;
+    font-size: 11px;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+.center2 .pos3 .table1 select{
+    width: 101%;
+    height: 5ex;
+    font-size: 11px;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+.center2 .pos3 .table1 td .createNewUser{
+    font-size: 15px;
+    width: 50%;
+    height: 35px;
+    color: white;
+    margin: 2px;
+    padding: 0;
+    border-color: rgba(49, 139, 176, 0.8);
+    border-radius: 5px;
+    background-color: rgba(49, 139, 176, 0.8);
+    text-align: center;
+    text-decoration: none;
+}
+
+.center2 .pos3 .table1 td .createNewUser a{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 350px){
+    .right{
+        position: relative;
+        font-family: Arial Black, sans-serif;
+        margin: auto;
+        left: 11ex;
+        background-image: url("../img/background.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 80%;
+        height: 25ex;
+    }
+
+}
+
+/*******image sizing***********/
+.size{
+    padding-top: 5px;
+    width: 33px;
+    height: 30px;
+}
+
+.icon_size{
+    width: 20px;
+    height: 20px;
+}
+
+.icon_size:hover{
+    background-color: lightgrey;
+    border-radius: 2px;
+}
+
+/***********Owner***************/
+
+.center1 .position1{
+    position: relative;
+    margin: auto;
+    padding-bottom: 10px;
+    height: auto;
+    width: 90%;
+    text-align: center;
+    overflow: auto;
+}
+
+.center1 .position1 .table2{
+    border-collapse: collapse;
+    border: 1px solid grey;
+    width: 100%;
+}
+
+.center1 .position1 .table2 th{
+    background-color: #04AA6D;
+    color: white;
+    font-size: 24px;
+    padding: 3px;
+}
+
+.center1 .position1 .table2 td{
+    background-color: white;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.center1 .position1 .table2 tr:hover{
+    background-color: grey;
+}
+
+.center1 .position1 .table2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.center1 .position1 .table2 a:hover{
+    background-color: rgba(179, 200, 204,0.8);
+    border-radius: 5px;
+}
+
+.center1 .position1 button{
+    font-size: 15px;
+    width: 30%;
+    height: 35px;
+    color: white;
+    margin: 2px;
+    padding: 0;
+    border-color: rgba(49, 139, 176, 0.8);
+    border-radius: 5px;
+    background-color: rgba(49, 139, 176, 0.8);
+    text-align: center;
+}
+
+.center1 .position1 button a{
+    text-decoration: none;
+    color: white;
+}
+
+/*personal Details part*/
+.center1 .position1 .table2-1{
+    border-collapse: collapse;
+    width: 90%;
+}
+
+.center1 .position1 .table2-1 td{
+    background-color: rgba(84, 172, 196, 0.8);
+    font-size: 20px;
+    padding: 5px;
+}
+
+.center1 .position1 .table2-1 td button{
+    font-size: 15px;
+    width: 20%;
+    height: 35px;
+    color: white;
+    margin: 2px;
+    padding: 0;
+    border-color: rgba(49, 139, 176, 0.8);
+    border-radius: 5px;
+    background-color: rgba(49, 139, 176, 0.8);
+    text-align: center;
+}
+
+.center1 .position1 .table2-1 td button a{
+    text-decoration: none;
+    color: white;
+}
+/********************Search bar***************/
+.position2{
+    position: relative;
+    float: right;
+    right: 8ex;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.position2 select{
+    width: 25ex;
+    height: 5ex;
+    font-size: 24px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+/*********navigation bar*************/
+.navbar {
+    overflow: hidden;
+    background-color: rgb(80, 159, 191);
+    display: block;
+    justify-content: center;
+}
+
+.navbar a{
+    float: left;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 100%;
+}
+
+.subnav {
+    float: left;
+    overflow: hidden;
+    width: 100%;
+}
+
+.subnav .subnavbtn {
+    position: relative;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn:hover {
+    background-color:  rgb(49, 139, 176);
+}
+
+.subnav-content {
+    display: none;
+    position: relative;
+    margin: auto;
+    left: 0;
+    background-color: rgb(49, 139, 176);
+    width: auto;
+    z-index: 1;
+}
+
+.subnav-content a {
+    float: left;
+    color: black;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+.subnav-content a:hover {
+    background-color: rgb(48, 130, 164);
+    color: black;
+}
+
+.subnav:hover .subnav-content {
+    display: block;
+}
+
+@media all and(max-width: 550px){
+    .subnavbtn {
+        display: block;
+        margin: 50% auto;
+        overflow: hidden;
+    }
+}
+/********************QR Code*************************/
+.card{
+    width: 40%;
+    height: 60%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.card > img {
+    max-width: 60%;
+    border-radius: 10px;
+}
+
+.title{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.4rem;
+    color: hsl(21%,44%,22%);
+}
+
+.card > p{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    color: rgb(79, 86, 89);
+}
+/********************************************************/
+.testingbox{
+    border: 1px solid red;
+}
